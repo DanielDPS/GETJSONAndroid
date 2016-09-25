@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.dany.gamaslt.DetalleOrden">
+
+    <include
+        layout="@layout/toolbar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+    </include>
+
+
+<LinearLayout
+    android:background="#eee"
+    android:orientation="vertical"
+    android:id="@+id/ordenes"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ListView
+        android:id="@+id/listaOrden"
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+    </ListView>
+
+
+
+
+     <android.support.design.widget.TextInputLayout
+        android:id="@+id/CapaOrdenes"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content">
+
+         <ListView
+             android:layout_marginTop="5dp"
+             android:id="@+id/listaDetalle"
+             android:layout_width="match_parent"
+             android:layout_height="160dp"></ListView>
+
+
+
+     </android.support.design.widget.TextInputLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ListView
+            android:layout_marginTop="5dp"
+            android:id="@+id/listaEstatusDetalle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></ListView>
+
+    </android.support.design.widget.TextInputLayout>
+
+
+
+
+</LinearLayout>
+
+
+</LinearLayout>

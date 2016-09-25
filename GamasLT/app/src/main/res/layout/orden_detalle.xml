@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    
+    >
+    <LinearLayout
+        android:id="@+id/capa1"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="15dp"
+        android:padding="2dp"
+        android:orientation="vertical"
+        android:background="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="140dp">
+
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow>
+                <TextView android:padding="5dip" android:textSize="16dp" android:text="Caja" />
+                <TextView android:padding="5dip" android:textSize="16dp" android:text="Origen" android:layout_marginLeft="45dp" />
+                <TextView android:padding="5dip" android:textSize="16dp"  android:text="Destino"   android:layout_marginLeft="25dp"/>
+            </TableRow>
+
+            <TableRow android:layout_width="match_parent" android:layout_height="2.5dp">
+                <TextView
+                    android:textSize="11dp"
+                    android:textColor="@color/ColorTexto"
+                    android:padding="5dip"
+                    android:text="Caja"
+                    android:id="@+id/txtCaja"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    />
+                <TextView
+                    android:textStyle="bold"
+                    android:textSize="11dp"
+                    android:layout_marginLeft="45dp"
+                    android:textColor="@color/ColorTexto"
+                    android:padding="5dip"
+                    android:text="Origen"
+                    android:id="@+id/txtOrigen"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:padding="5dp"
+
+                    android:layout_marginLeft="-5dp"
+                    android:textStyle="bold"
+                    android:textSize="11dp"
+                    android:textColor="@color/ColorTexto"
+                    android:text="Destino"
+                    android:id="@+id/txtDestino"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </TableRow>
+
+        </TableLayout>
+
+
+        <TableLayout
+            android:paddingTop="5dp"
+            android:paddingLeft="3dp"
+            android:paddingBottom="15dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow >
+
+                <TextView android:padding="5dip" android:textSize="16dp" android:text="Unidad" />
+                <TextView android:padding="5dip" android:textSize="16dp"  android:text="Placas" android:layout_marginLeft="25dp" />
+
+                <TextView android:padding="5dip" android:textSize="16dp" android:layout_marginLeft="30dp"   android:text="Fecha" />
+                <TextView  android:padding="5dip" android:textSize="16dp"    android:text="Hora"  android:layout_marginLeft="20dp"/>
+
+
+            </TableRow>
+
+
+            <TableRow   android:layout_width="match_parent"  android:layout_marginLeft="2.5dp"
+
+                >
+                <TextView
+                    android:textSize="11dp"
+                    android:textColor="@color/ColorTexto"
+                    android:padding="5dip"
+                    android:text="Unidad"
+                    android:id="@+id/txtUnidad"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    />
+
+
+                <TextView
+                    android:textStyle="bold"
+                    android:textSize="11dp"
+                    android:textColor="@color/ColorTexto"
+                    android:padding="5dip"
+                    android:text="Placas"
+                    android:layout_marginLeft="25dp"
+                    android:id="@+id/txtPlacas"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+
+
+                <TextView
+                    android:textStyle="bold"
+                    android:textSize="11dp"
+                    android:textColor="@color/ColorTexto"
+                    android:padding="5dip"
+                    android:text="Fecha"
+                    android:layout_marginLeft="30dp"
+                    android:id="@+id/txtFecha"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+
+
+
+                <TextView
+                    android:textSize="11dp"
+                    android:textColor="@color/ColorTexto"
+                    android:padding="5dip"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="-40dp"
+                    android:layout_gravity="left"
+                    android:text="Hora"
+                    android:textStyle="bold"
+                    android:id="@+id/txtHora"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+
+
+
+
+            </TableRow>
+
+
+
+        </TableLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

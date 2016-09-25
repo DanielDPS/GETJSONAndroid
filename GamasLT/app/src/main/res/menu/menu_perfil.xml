@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group android:checkableBehavior="all"
+        >
+
+
+        <item
+
+            android:id="@+id/cuenta"
+            android:icon="@drawable/inicio"
+            android:title="Inicio">
+        </item>
+                    <item
+                        android:id="@+id/cerrar"
+                        android:icon="@drawable/salir1"
+                        android:title="Cerrar sesion">
+                    </item>
+
+            <item
+                android:id="@+id/salir"
+                android:icon="@drawable/close"
+                android:title="Salir">
+
+
+            </item>
+    </group>
+
+
+
+
+</menu>
